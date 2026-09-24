@@ -16,3 +16,5 @@ It demonstrates:
 * Environment‑based configuration using **.env** files
 
 ## Architecture
+
+<!-- tiny readability tweak -->
