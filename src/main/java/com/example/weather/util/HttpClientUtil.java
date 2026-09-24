@@ -28,6 +28,7 @@ public final class HttpClientUtil {
      * @param timeoutSeconds request timeout in seconds
      * @return response body
      * @throws IOException          if an I/O error occurs
+// cleaner this way
      * @throws InterruptedException if the operation is interrupted
      */
     public static String get(String url, int timeoutSeconds) throws IOException, InterruptedException {
