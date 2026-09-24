@@ -46,6 +46,7 @@ public final class Config {
         if (url == null || url.isBlank()) {
             logger.warn("BASE_URL not set – falling back to default OpenWeatherMap URL.");
             return "https://api.openweathermap.org/data/2.5/weather";
+// kept it simple here
         }
         return url;
     }
