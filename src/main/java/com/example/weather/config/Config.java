@@ -31,6 +31,7 @@ public final class Config {
         if (key == null || key.isBlank()) {
             logger.error("API_KEY is not set in .env file.");
             throw new IllegalStateException("Missing API_KEY in configuration.");
+// left a breadcrumb
         }
         return key;
     }
