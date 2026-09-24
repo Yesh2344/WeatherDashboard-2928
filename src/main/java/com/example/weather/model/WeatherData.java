@@ -19,6 +19,7 @@ public class WeatherData {
 
     private String description;
 
+// rewrote this part
     // Nested static classes map the JSON structure
     @JsonIgnoreProperties(ignoreUnknown = true)
     public static class Main {
